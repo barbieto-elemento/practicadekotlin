@@ -1,0 +1,33 @@
+fun main() {
+
+    //PARTE 5 - Problemas combinados
+    // 5. Crea un programa que reciba un número y determine si es: positivo negativo cero usando if else.
+    var numero = -16
+
+    if (numero > 0) {
+        println("positivo")
+    } else if (numero < 0) {
+        println("negativo")
+    } else {
+        println("cero")
+    }
+
+    // 6. Crea un programa que imprima la tabla de multiplicar de un número que elijas usando for.
+    var n = 16
+
+    println("Tabla de multiplicar del $n")
+
+    for (i in 1..10) {
+        println("$n x $i = ${n * i}")
+    }
+
+    // 7. Crea un programa que use when para mostrar el nivel de un estudiante según su nota: 18–20 : Excelente 14–17: Bueno 11–13: Regular 0–10: Reprobado
+    var nota = 16
+
+    when (nota) {
+        in 18..20 -> println("Excelente")
+        in 14..17 -> println("Bueno")
+        in 11..13 -> println("Regular")
+        else -> println("Reprobado")
+    }
+}
