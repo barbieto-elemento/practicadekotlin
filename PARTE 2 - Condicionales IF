@@ -1,6 +1,6 @@
 fun main() {
 
-    //PARTE 2 — Condicionales IF
+    //PARTE 2 - Condicionales IF
     // 1. Crea una variable edad y usa if para mostrar: Eres mayor de edad,si la edad es mayor o igual a 18.
     var edad = 20
 
