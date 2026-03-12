@@ -1,0 +1,33 @@
+fun main() {
+
+    //PARTE 4 - Ciclos FOR
+    // 1. Usa for para imprimir los números del 1 al 10.
+    for (i in 1..10) {
+        println(i)
+    }
+
+    // 2. Usa for para imprimir tu nombre 5 veces.
+    for (i in 1..5) {
+        println("Bryan")
+    }
+
+    // 3. Crea un programa que imprima los números del 1 al 20. Pero si el número es par, mostrar: Numero par: X
+    for (i in 1..20) {
+
+        if (i % 2 == 0) {
+            println("Numero par: $i")
+        } else {
+            println(i)
+        }
+
+    }
+
+    // 4. Usa for para sumar los números del 1 al 10 y mostrar el resultado final.
+    var suma = 0
+
+    for (i in 1..10) {
+        suma += i
+    }
+
+    println("La suma total es: $suma")
+}
