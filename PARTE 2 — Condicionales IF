@@ -1,0 +1,42 @@
+fun main() {
+
+    //PARTE 2 — Condicionales IF
+    // 1. Crea una variable edad y usa if para mostrar: Eres mayor de edad,si la edad es mayor o igual a 18.
+    var edad = 20
+
+    if (edad >= 18) {
+        println("Eres mayor de edad")
+    }
+
+    // 2. Crea una variable nota y usa if else para mostrar: Aprobado: si la nota es mayor o igual a 11, de lo contrario mostrar :Desaprobado
+    var nota = 14
+
+    if (nota >= 11) {
+        println("Aprobado")
+    } else {
+        println("Desaprobado")
+    }
+
+    // 3. Crea una variable numero con cualquier valor. Usa if para indicar si el número es positivo.
+    var numero = 8
+
+    if (numero > 0) {
+        println("El número es positivo")
+    }
+
+    // 4. Crea un programa que verifique si un número es par o impar usando if else.
+    if (numero % 2 == 0) {
+        println("El número es par")
+    } else {
+        println("El número es impar")
+    }
+
+    // 5. Crea una variable temperatura.
+    var temperatura = 16
+
+    if (temperatura < 18) {
+        println("Hace frío")
+    } else {
+        println("Hace calor")
+    }
+}
