@@ -1,0 +1,56 @@
+fun main() {
+
+    //PARTE 3 - Condicional WHEN
+    // 1. Crea una variable dia con un número del 1 al 7. Usa when para mostrar el día de la semana.
+    var dia = 2
+
+    when (dia) {
+        1 -> println("Lunes")
+        2 -> println("Martes")
+        3 -> println("Miércoles")
+        4 -> println("Jueves")
+        5 -> println("Viernes")
+        6 -> println("Sábado")
+        7 -> println("Domingo")
+        else -> println("Día inválido")
+    }
+
+    // 2. Crea una variable numero del 1 al 3. Usa when para mostrar: 1 -> Piedra 2 -> Papel 3 -> Tijera
+    var numero = 2
+
+    when (numero) {
+        1 -> println("Piedra")
+        2 -> println("Papel")
+        3 -> println("Tijera")
+        else -> println("Opción inválida")
+    }
+
+    // 3. Crea una variable mes con un número del 1 al 12. Usa when para imprimir el nombre del mes.
+    var mes = 4
+
+    when (mes) {
+        1 -> println("Enero")
+        2 -> println("Febrero")
+        3 -> println("Marzo")
+        4 -> println("Abril")
+        5 -> println("Mayo")
+        6 -> println("Junio")
+        7 -> println("Julio")
+        8 -> println("Agosto")
+        9 -> println("Septiembre")
+        10 -> println("Octubre")
+        11 -> println("Noviembre")
+        12 -> println("Diciembre")
+        else -> println("Mes inválido")
+    }
+
+    // 4. Crea una variable nota y usa when para mostrar: AD A B C según el valor de la nota.
+    var nota = 16
+
+    when (nota) {
+        in 18..20 -> println("AD")
+        in 16..17 -> println("A")
+        in 13..15 -> println("B")
+        else -> println("C")
+    }
+}
